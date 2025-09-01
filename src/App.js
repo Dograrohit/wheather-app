@@ -23,7 +23,7 @@ function App() {
    }
 
   let get = async()=>{
-    const city = input.trim() === "" ? "delhi" : input;
+    const city = input.trim() === "" ? "Delhi" : input;
 
      try{
 
