@@ -31,8 +31,6 @@ function App() {
 
      let data = await res.json()
 
-     console.log(data)
-
      //image and icon set
 
      if(data.weather[0].main === "Clouds"){
